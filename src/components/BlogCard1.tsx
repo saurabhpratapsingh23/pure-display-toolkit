@@ -44,13 +44,9 @@ const BlogCard1 = () => {
       </div>
 
       {/* Bottom section with logos */}
-      <div className="px-8 md:px-12 pb-6 flex top-3 items-center gap-4">
-        <KYC2020Logo />
-        {/* <div className="w-px h-8 bg-gray-600" /> */}
-        {/* <span className="text-gray-300 font-bold text-lg tracking-wider">
-          CERTID
-        </span> */}
-      </div>
+   <div className="absolute top-6 left-6 z-20">
+  <KYC2020Logo />
+</div>
 
       {/* Bottom gradient bar */}
       <div className="h-1.5 w-full bg-gradient-to-r from-[#0EA5E9] via-[#10B981] to-[#0EA5E9]" />
