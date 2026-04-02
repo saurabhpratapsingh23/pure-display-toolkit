@@ -21,10 +21,10 @@ const BlogCard3 = () => {
             <span className="text-[#E8781A]">AML and KYC Screening</span>{" "}
             Into Your CRM, ERP, or Business Platform
           </h2>
-          <p className="text-gray-500 text-sm">
+          {/* <p className="text-gray-500 text-sm">
             Connect screening directly to the systems your business already runs
             on. Salesforce, Zoho, SAP, and more.
-          </p>
+          </p> */}
         </div>
 
         {/* Right side - integration nodes */}
@@ -66,7 +66,7 @@ const BlogCard3 = () => {
       </div>
 
       {/* Bottom section with logo */}
-      <div className="px-8 md:px-12 pb-6">
+      <div className=" bottom-6 px-8 md:px-12 pb-6">
         <KYC2020Logo />
       </div>
 

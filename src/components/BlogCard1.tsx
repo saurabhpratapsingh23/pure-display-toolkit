@@ -18,13 +18,13 @@ const BlogCard1 = () => {
           <span className="inline-block self-start bg-[#E8781A] text-white text-xs font-bold tracking-[0.15em] uppercase px-4 py-1.5 rounded-sm">
             SCREENING VALIDATION
           </span>
-          <h2 className="text-white text-3xl md:text-4xl font-bold leading-tight">
+          <h2 className="text-white text-3xl md:text-3xl font-bold leading-tight">
             <span className="text-[#E8781A]">5 Screening Problems</span>{" "}
             You Won't Find Without Testing
           </h2>
-          <p className="text-gray-400 text-sm">
+          {/* <p className="text-gray-400 text-sm">
             The failures that don't generate alerts. They generate silence.
-          </p>
+          </p> */}
         </div>
 
         {/* Right side - numbered list */}
@@ -44,12 +44,12 @@ const BlogCard1 = () => {
       </div>
 
       {/* Bottom section with logos */}
-      <div className="px-8 md:px-12 pb-6 flex items-center gap-4">
+      <div className="px-8 md:px-12 pb-6 flex top-3 items-center gap-4">
         <KYC2020Logo />
-        <div className="w-px h-8 bg-gray-600" />
-        <span className="text-gray-300 font-bold text-lg tracking-wider">
+        {/* <div className="w-px h-8 bg-gray-600" /> */}
+        {/* <span className="text-gray-300 font-bold text-lg tracking-wider">
           CERTID
-        </span>
+        </span> */}
       </div>
 
       {/* Bottom gradient bar */}

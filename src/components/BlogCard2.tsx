@@ -2,8 +2,7 @@ import KYC2020Logo from "./KYC2020Logo";
 
 const BlogCard2 = () => {
   return (
-    <div className="relative w-full max-w-4xl rounded-lg overflow-hidden bg-[#1A2332]">
-      {/* Hexagon pattern decoration (top right) */}
+   <div className="relative w-full max-w-4xl min-h-[360px] flex flex-col justify-between rounded-lg overflow-hidden bg-[#1A2332]">
       <div className="absolute top-0 right-0 w-48 h-48 opacity-20">
         <svg viewBox="0 0 200 200" className="w-full h-full text-[#E8781A]">
           <polygon points="100,10 140,35 140,85 100,110 60,85 60,35" fill="none" stroke="currentColor" strokeWidth="1" />
@@ -20,8 +19,7 @@ const BlogCard2 = () => {
           </span>
         </div>
 
-        {/* KYC2020 Logo */}
-        <KYC2020Logo />
+  
 
         {/* Title */}
         <h2 className="text-white text-3xl md:text-4xl font-bold leading-tight max-w-lg">
@@ -30,14 +28,17 @@ const BlogCard2 = () => {
         </h2>
 
         {/* Subtitle */}
-        <p className="text-gray-400 text-sm max-w-lg">
+        {/* <p className="text-gray-400 text-sm max-w-lg">
           What to look for, what to test, and who to consider.{" "}
           <span className="text-white font-semibold">
             A guide for compliance teams evaluating screening providers.
           </span>
-        </p>
+        </p> */}
       </div>
 
+  <div className="absolute bottom-6 left-9 z-10">
+  <KYC2020Logo />
+</div>
       {/* Bottom gradient bar */}
       <div className="h-1.5 w-full bg-gradient-to-r from-[#0EA5E9] via-[#10B981] to-[#0EA5E9]" />
     </div>
